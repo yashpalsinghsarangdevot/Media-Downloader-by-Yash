@@ -146,6 +146,7 @@ cd Media-Downloader-by-Yash</code></pre>
   <a href="https://github.com/yashpalsinghsarangdevot" target="_blank" style="text-decoration: none; margin-right: 20px;">
     <img src="./assets/github.png" width="30" alt="GitHub" style="vertical-align: middle;"> <strong style="vertical-align: middle;">GitHub</strong>
   </a>
+  /n
   <a href="https://instagram.com/yashhpalsingh_sarangdevot" target="_blank" style="text-decoration: none;">
     <img src="./assets/instagram.webp" width="30" alt="Instagram" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Instagram</strong>
   </a>
