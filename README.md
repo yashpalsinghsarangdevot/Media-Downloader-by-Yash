@@ -151,7 +151,7 @@ cd Media-Downloader-by-Yash</code></pre>
   </a>
 </div>
 
-<p><strong>Developed with ❤️ by Yashpal Singh Sarangdevot</strong></p>
+<br /><p><strong>Developed with ❤️ by Yashpal Singh Sarangdevot</strong></p>
 <p>If you find any bugs or want to request a feature, feel free to reach out via the official GitHub repository action panel or connect directly on Instagram!</p>
 
 <hr />
