@@ -14,15 +14,17 @@
 <h2>📥 Download Standalone</h2>
 <p>Download the latest pre-compiled production packages for your device:</p>
 <ul>
+  
+  <li>
+    <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .apk (Android Mobile)</a></strong> - Native mobile version built with Java and Kotlin, featuring optimized Mobile Audio Trimming. 🔥
+  </li>
   <li>
     <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .exe (Portable Windows)</a></strong> - Single file PC version, built with Python and PyQt6.
   </li>
   <li>
     <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .zip (Full Windows Package)</a></strong> - Recommended if the portable version has issues.
   </li>
-  <li>
-    <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .apk (Android Mobile)</a></strong> - Native mobile version built with Java and Kotlin, featuring optimized Mobile Audio Trimming. 🔥
-  </li>
+  
 </ul>
 
 <hr />
@@ -31,7 +33,7 @@
 <ol>
   <li><strong>Analyze Link:</strong> Paste any supported media URL (YouTube, Instagram, etc.) and click <strong>ANALYZE LINK</strong>.</li>
   <li><strong>Select Quality:</strong> Once analyzed, pick your preferred resolution or bitrate from the dropdown menu.</li>
-  <li><strong>Choose Category:</strong> Select <strong>Video</strong> (full clip), <strong>Audio Only</strong> (music), or <strong>Video-Only</strong>.</li>
+  <li><strong>Choose Category:</strong> Select <strong>Video</strong>, <strong>Audio Only</strong> (music), or <strong>Video-Only</strong> (no audio).</li>
   <li><strong>Trimming (Optional):</strong> Check "Enable Trimming" and enter your desired segment times.</li>
   <li><strong>Extract:</strong> Click <strong>DOWNLOAD NOW</strong> to start the process.</li>
   <li><strong>Track:</strong> Monitor progress in real-time on the main page, and view your completed files in the <strong>Finished Clips</strong> tab.</li>
@@ -39,9 +41,16 @@
 
 <hr />
 
-<h2>📸 UI Preview</h2>
+<h2>📸 UI Interface</h2>
+
+<h3> 📱 Android Preview </h3>
 <div align="center">
-  <img src="./assets/gui_preview.png" width="800" alt="Media Downloader UI Preview">
+  <img src="./assets/android_preview.png" width="500" alt="Media Downloader Android Preview">
+</div>
+
+<h3 > 🖥️ Desktop Preview </h3>
+<div align="center">
+  <img src="./assets/gui_preview.png" width="800" alt="Media Downloader Desktop Preview">
 </div>
 
 <hr />
@@ -147,17 +156,9 @@ cd Media-Downloader-by-Yash</code></pre>
 <hr />
 
 <h2>👤 Author & Support</h2>
-<div align="left">
-  <a href="https://github.com/yashpalsinghsarangdevot" target="_blank" style="text-decoration: none; margin-right: 20px;">
-    <img src="./assets/github.png" width="30" alt="GitHub" style="vertical-align: middle;"> <strong style="vertical-align: middle;">GitHub</strong>
-  </a>
-  <br /><br />
-  <a href="https://instagram.com/yashhpalsingh_sarangdevot" target="_blank" style="text-decoration: none;">
-    <img src="./assets/instagram.webp" width="30" alt="Instagram" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Instagram</strong>
-  </a>
-</div>
+<p><a href="https://github.com/yashpalsinghsarangdevot" target="_blank" style="text-decoration: none;"><img src="./assets/github.png" width="30" alt="GitHub" style="vertical-align: middle;"> <strong style="vertical-align: middle;">GitHub</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://instagram.com/yashhpalsingh_sarangdevot" target="_blank" style="text-decoration: none;"><img src="./assets/instagram.webp" width="27" alt="Instagram" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Instagram</strong></a>
+</p>
 
-<br />
 <p><strong>Developed with ❤️ by Yashpal Singh Sarangdevot</strong></p>
 <p>If you find any bugs or want to request a feature, feel free to reach out via the official GitHub repository action panel or connect directly on Instagram!</p>
 
