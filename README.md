@@ -2,23 +2,26 @@
   <img src="./assets/logo.png" width="180" alt="Media Downloader Logo">
   <h1>Media Downloader by Yash</h1>
   <p>
-    <strong>Media Downloader Pro</strong> is a high-performance, professional-grade media extraction tool designed for power users who demand the highest quality content. Unlike standard downloaders that limit you to 360p or low-bitrate audio, this app unlocks the full potential of your media links, allowing for seamless extraction of <strong>4K and 8K Ultra-HD video</strong> and high-fidelity <strong>320kbps audio</strong>.
+    <strong>Media Downloader </strong> is a cross-platform, professional-grade media extraction tool designed for power users who demand the highest quality content. Unlike standard downloaders that limit you to 360p or low-bitrate audio, this app unlocks the full potential of your media links, allowing for seamless extraction of <strong>4K and 8K Ultra-HD video</strong> and high-fidelity <strong>320kbps audio</strong>.
   </p>
   <p>
-    Powered by a sharded parallel download engine and integrated with FFmpeg for precise trimming, it serves as a centralized hub for archiving content from over <strong>1,000+ websites</strong> with zero quality loss.
+    Powered by a sharded parallel download engine and integrated with FFmpeg for precise trimming, it serves as a centralized hub for archiving content from over <strong>1,000+ websites</strong> like Youtube, Instagram etc with zero quality loss.
   </p>
 </div>
 
 <hr />
 
 <h2>📥 Download Standalone</h2>
-<p>For users who don't want to install Python, you can download the latest pre-compiled version for Windows:</p>
+<p>Download the latest pre-compiled production packages for your device:</p>
 <ul>
   <li>
-    <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .exe (Portable)</a></strong> - Single file, just run it.
+    <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .exe (Portable Windows)</a></strong> - Single file PC version, built with Python and PyQt6.
   </li>
   <li>
-    <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .zip (Full Package)</a></strong> - Recommended if the portable version has issues.
+    <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .zip (Full Windows Package)</a></strong> - Recommended if the portable version has issues.
+  </li>
+  <li>
+    <strong><a href="https://github.com/yashpalsinghsarangdevot/Media-Downloader-by-Yash/releases/latest">Download .apk (Android Mobile)</a></strong> - Native mobile version built with Java and Kotlin, featuring optimized Mobile Audio Trimming. 🔥
   </li>
 </ul>
 
@@ -45,24 +48,25 @@
 
 <h2>📖 Detailed Description</h2>
 <p>
-  <strong>Media Downloader by Yash</strong> is an advanced multimedia tool designed to bridge the gap between complex command-line extraction utilities and the need for a streamlined, user-friendly desktop experience. Built on the industry-leading foundations of <code>yt-dlp</code> and <code>FFmpeg</code>, this application provides a robust environment for capturing, processing, and organizing digital content from over 1,000+ supported platforms.
+  <strong>Media Downloader by Yash</strong> is an advanced multimedia tool designed to bridge the gap between complex command-line extraction utilities and the need for a streamlined, user-friendly desktop and mobile experience. 
 </p>
 <p>
-  In an era where digital content is fragmented across numerous services, this tool serves as a centralized hub for content creators, researchers, and media enthusiasts. It doesn't just "download" files; it intelligently analyzes media streams to provide the highest possible quality while offering granular control over the final output. Whether you are archiving high-resolution 4K video, extracting high-fidelity 320kbps audio for production, or precisely trimming a specific segment from a massive livestream, the engine handles the technical heavy lifting in the background.
+  The project is split into two specialized applications: a high-performance desktop environment built on the industry-leading foundations of <code>Python</code>, <code>yt-dlp</code>, and <code>FFmpeg</code>, and a native mobile application built from scratch using <code>Java</code> and <code>Kotlin</code> to bring seamless media handling to Android smartphones.
+</p>
+<p>
+  In an era where digital content is fragmented across numerous services, this tool serves as a centralized hub for content creators, researchers, and media enthusiasts. It doesn't just "download" files; it intelligently analyzes media streams to provide the highest possible quality while offering granular control over the final output. Whether you are archiving high-resolution 4K video on your PC, extracting high-fidelity 320kbps audio for production, or precisely trimming a specific music segment directly on your phone, the engine handles the technical heavy lifting in the background.
 </p>
 
 <h3>Technical Excellence & Architecture</h3>
-<p>The core of the application is built using a multi-threaded architecture in Python and PyQt6, ensuring that the user interface remains responsive even during heavy network operations.</p>
-
 <ul>
   <li>
-    <strong>Intelligent Stream Selection:</strong> Unlike basic downloaders, this tool utilizes a complex scoring system to automatically select the best video and audio streams, ensuring maximum compatibility with MP4/M4A containers.
+    <strong>PC Architecture (Python & PyQt6):</strong> Uses a multi-threaded execution pipeline to ensure the user interface remains completely fluid and responsive during sharded, multi-chunk network downloads.
   </li>
   <li>
-    <strong>Precision Engineering:</strong> The segment trimming feature utilizes FFmpeg's keyframe-aware cutting, allowing users to extract exact moments from long-form content without the need for external editing software.
+    <strong>Mobile Architecture (Java & Kotlin Native):</strong> Built natively for Android to maximize mobile performance, minimize battery drain, and provide clean file-system access for managing saved tracks.
   </li>
   <li>
-    <strong>Bot Bypass & Resilience:</strong> To combat aggressive bot detection on platforms like YouTube, the tool implements advanced network strategies, including IPv4 forcing (to bypass IPv6 subnet bans), user-agent rotation, and support for authenticated cookie sessions.
+    <strong>Intelligent Stream Selection:</strong> Both versions utilize an advanced stream selection scoring matrix to pull the highest matching quality options directly into your target local directories.
   </li>
 </ul>
 
@@ -85,7 +89,8 @@
 
 <h3>✂️ Precision Trimming</h3>
 <ul>
-  <li><strong>Segment Extraction:</strong> Built-in FFmpeg support allows you to download only specific parts of a video by setting exact Start and End times (HH:MM:SS).</li>
+  <li><strong>Windows Segment Extraction:</strong> Full support for both video and audio files by setting exact Start and End times (HH:MM:SS).</li>
+  <li><strong>Android Audio Trimming:</strong> Optimized specifically for native mobile interfaces to let you isolate and trim exact audio tracks and music segments before saving. (Note: Video extractions on the mobile app download the full-length clip).</li>
 </ul>
 
 <h3>🗂️ Persistent History & Retry</h3>
@@ -146,12 +151,14 @@ cd Media-Downloader-by-Yash</code></pre>
   <a href="https://github.com/yashpalsinghsarangdevot" target="_blank" style="text-decoration: none; margin-right: 20px;">
     <img src="./assets/github.png" width="30" alt="GitHub" style="vertical-align: middle;"> <strong style="vertical-align: middle;">GitHub</strong>
   </a>
-  <br /><br /><a href="https://instagram.com/yashhpalsingh_sarangdevot" target="_blank" style="text-decoration: none;">
+  <br /><br />
+  <a href="https://instagram.com/yashhpalsingh_sarangdevot" target="_blank" style="text-decoration: none;">
     <img src="./assets/instagram.webp" width="30" alt="Instagram" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Instagram</strong>
   </a>
 </div>
 
-<br /><p><strong>Developed with ❤️ by Yashpal Singh Sarangdevot</strong></p>
+<br />
+<p><strong>Developed with ❤️ by Yashpal Singh Sarangdevot</strong></p>
 <p>If you find any bugs or want to request a feature, feel free to reach out via the official GitHub repository action panel or connect directly on Instagram!</p>
 
 <hr />
